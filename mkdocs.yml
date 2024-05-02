@@ -1,0 +1,47 @@
+site_name: InfraX Docs
+site_url: https://docs.infrax.network
+site_description: InfraX Docs
+site_author: InfraX Network
+repo_url: https://github.com/wegfawefgawefg/infrax-gpu-router-backend
+copyright: Copyright &copy; 2024 - InfraX
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/wegfawefgawefg/infrax-gpu-router-backend
+    - icon: material/twitter
+      link: https://twitter.com/InfraX_
+    - icon: simple/telegram
+      link: https://t.me/infraxai
+theme:
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: '(prefers-color-scheme)'
+      toggle:
+        icon: material/lightbulb-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: black
+      accent: light green
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to system preference
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Home: index.md
+  - Node: node.md
+  - App: app.md
+  - Job: job.md
