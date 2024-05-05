@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.infrax.network/</loc>
+         <loc>https://infrax.network/</loc>
          <lastmod>2024-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.infrax.network/app/</loc>
+         <loc>https://infrax.network/app/</loc>
          <lastmod>2024-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.infrax.network/job/</loc>
+         <loc>https://infrax.network/job/</loc>
          <lastmod>2024-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.infrax.network/node/</loc>
+         <loc>https://infrax.network/node/</loc>
          <lastmod>2024-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
