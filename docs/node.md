@@ -14,12 +14,18 @@ To get started with contributing to the InfraX network as a node supplier, you w
 
 ## Installation
 
+!!! note
+    The InfraX Node software is designed to run on Linux based operating systems. If you are using a different operating system, you may need to set up a virtual machine or container to run the software.
+
 To install the InfraX Node software, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Edit the `config.toml` file to match your information.
 3. Run the `install.sh` script to install the necessary dependencies and start the InfraX Node service.
 4. Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.
+
+!!! warning
+    Because the InfraX Node software is designed to accept external requests, it is important to ensure that your firewall settings allow incoming connections on the specified port (default `external_port=8420`). If you are running the software on a cloud server, you may need to configure the security group settings to allow incoming connections on the specified port.
 
 ## Usage
 
