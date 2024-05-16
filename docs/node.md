@@ -25,7 +25,3 @@ To install the InfraX Node software, follow these steps:
 ## Usage
 
 Once your node is connected to the InfraX network, requests to install Apps and run Jobs will be sent to your node. You can view the status of your node and the Jobs that are currently running by visiting the InfraX dashboard.
-
-## Troubleshooting
-
-If you encounter any issues while installing or running the InfraX Node software, please refer to the [troubleshooting guide](troubleshooting.md) for assistance.

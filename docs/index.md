@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# InfraX Network
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The InfraX Network is a decentralized network of Nodes that can be used to run Apps. The network is designed to be fault-tolerant and scalable, with the ability to run multiple Apps concurrently.
 
-## Commands
+## Nodes
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+A [Node](node.md) is a computer that is connected to the InfraX network. Nodes are responsible for running Apps and processing Jobs. They are the backbone of the InfraX network.
 
-## Project layout
+## Apps
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+An [App](app.md) is a python application that is installed on a Node in the InfraX network. It is used to execute user created [Jobs](job.md) and interact with the InfraX network.
+
+## Jobs
+
+A [Job](job.md) is a user-created task that is executed by an App on a Node in the InfraX network. It is used to process input data and generate output data.
