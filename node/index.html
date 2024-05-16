@@ -344,6 +344,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#updating" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -443,6 +452,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#updating" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -477,6 +495,28 @@
 </ol>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <p>Once your node is connected to the InfraX network, requests to install Apps and run Jobs will be sent to your node. You can view the status of your node and the Jobs that are currently running by visiting the InfraX dashboard.</p>
+<h2 id="updating">Updating<a class="headerlink" href="#updating" title="Permanent link">&para;</a></h2>
+<p>To update the InfraX Node software, simply run:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>./manage.sh<span class="w"> </span>restart
+</span></code></pre></div>
+<p>This will pull the latest version of the software from the repository and restart the node.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>devop@Infrax-Test-Node-1:~/infrax_node$<span class="w"> </span>sudo<span class="w"> </span>./manage.sh<span class="w"> </span>update
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Already<span class="w"> </span>up<span class="w"> </span>to<span class="w"> </span>date.
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span>infrax.service<span class="w">                     </span>loaded<span class="w">    </span>active<span class="w"> </span>running<span class="w"> </span>InfraX<span class="w"> </span>Node<span class="w"> </span>service
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span>infrax.service<span class="w">                     </span>loaded<span class="w">    </span>active<span class="w"> </span>running<span class="w"> </span>InfraX<span class="w"> </span>Node<span class="w"> </span>service
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span>infrax.service<span class="w">                     </span>loaded<span class="w">    </span>active<span class="w"> </span>running<span class="w"> </span>InfraX<span class="w"> </span>Node<span class="w"> </span>service
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>●<span class="w"> </span>infrax.service<span class="w"> </span>-<span class="w"> </span>InfraX<span class="w"> </span>Node<span class="w"> </span>service
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">     </span>Loaded:<span class="w"> </span>loaded<span class="w"> </span><span class="o">(</span>/etc/systemd/system/infrax.service<span class="p">;</span><span class="w"> </span>enabled<span class="p">;</span><span class="w"> </span>preset:<span class="w"> </span>enabled<span class="o">)</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">     </span>Active:<span class="w"> </span>active<span class="w"> </span><span class="o">(</span>running<span class="o">)</span><span class="w"> </span>since<span class="w"> </span>Thu<span class="w"> </span><span class="m">2024</span>-05-16<span class="w"> </span><span class="m">07</span>:45:08<span class="w"> </span>UTC<span class="p">;</span><span class="w"> </span>52ms<span class="w"> </span>ago
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">   </span>Main<span class="w"> </span>PID:<span class="w"> </span><span class="m">69945</span><span class="w"> </span><span class="o">(</span>python3<span class="o">)</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">      </span>Tasks:<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">(</span>limit:<span class="w"> </span><span class="m">1092</span><span class="o">)</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">     </span>Memory:<span class="w"> </span><span class="m">4</span>.9M
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">        </span>CPU:<span class="w"> </span>20ms
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">     </span>CGroup:<span class="w"> </span>/system.slice/infrax.service
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">             </span>└─69945<span class="w"> </span>/home/devop/infrax_node/.venv/bin/python3<span class="w"> </span>-m<span class="w"> </span>uvicorn<span class="w"> </span>infrax_node.main:app<span class="w"> </span>--host<span class="w"> </span><span class="m">0</span>.0.0.0<span class="w"> </span>--port<span class="w"> </span><span class="m">8420</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>May<span class="w"> </span><span class="m">16</span><span class="w"> </span><span class="m">07</span>:45:08<span class="w"> </span>Infrax-Test-Node-1<span class="w"> </span>systemd<span class="o">[</span><span class="m">1</span><span class="o">]</span>:<span class="w"> </span>Started<span class="w"> </span>infrax.service<span class="w"> </span>-<span class="w"> </span>InfraX<span class="w"> </span>Node<span class="w"> </span>service.
+</span></code></pre></div>
 
 
 
