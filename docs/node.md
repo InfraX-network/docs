@@ -18,20 +18,19 @@ To install the InfraX Node software, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Edit the `config.toml` file to match your information.
-3. Run the `install.sh` script to install the necessary dependencies.
-4. Run the `start.sh` script to start the InfraX Node software.
-5. Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.
+3. Run the `install.sh` script to install the necessary dependencies and start the InfraX Node service.
+4. Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.
 
 ## Usage
 
 Once your node is connected to the InfraX network, requests to install Apps and run Jobs will be sent to your node. You can view the status of your node and the Jobs that are currently running by visiting the InfraX dashboard.
 
-## Updating
+## Mangement
 
-To update the InfraX Node software, simply run:
+The InfraX Node software comes with a management script that can be used to update the software and restart the node. To update the software, run the following command:
 
 ```bash
-sudo ./manage.sh restart
+sudo ./manage.sh update
 ```
 
 This will pull the latest version of the software from the repository and restart the node.
@@ -54,3 +53,13 @@ Already up to date.
 
 May 16 07:45:08 Infrax-Test-Node-1 systemd[1]: Started infrax.service - InfraX Node service.
 ```
+
+Additional commands can be found by running the following command:
+
+```bash
+sudo ./manage.sh help
+```
+
+## Conclusion
+
+Nodes are the backbone of the InfraX network and are essential for the execution of Jobs and Apps. By installing the InfraX Node software on your computer, you can contribute to the network and earn rewards for your work.
