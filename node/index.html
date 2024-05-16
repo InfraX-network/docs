@@ -345,9 +345,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#updating" class="md-nav__link">
+  <a href="#mangement" class="md-nav__link">
     <span class="md-ellipsis">
-      Updating
+      Mangement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
     </span>
   </a>
   
@@ -453,9 +462,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#updating" class="md-nav__link">
+  <a href="#mangement" class="md-nav__link">
     <span class="md-ellipsis">
-      Updating
+      Mangement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
     </span>
   </a>
   
@@ -489,15 +507,14 @@
 <ol>
 <li>Clone the repository to your local machine.</li>
 <li>Edit the <code>config.toml</code> file to match your information.</li>
-<li>Run the <code>install.sh</code> script to install the necessary dependencies.</li>
-<li>Run the <code>start.sh</code> script to start the InfraX Node software.</li>
+<li>Run the <code>install.sh</code> script to install the necessary dependencies and start the InfraX Node service.</li>
 <li>Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.</li>
 </ol>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <p>Once your node is connected to the InfraX network, requests to install Apps and run Jobs will be sent to your node. You can view the status of your node and the Jobs that are currently running by visiting the InfraX dashboard.</p>
-<h2 id="updating">Updating<a class="headerlink" href="#updating" title="Permanent link">&para;</a></h2>
-<p>To update the InfraX Node software, simply run:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>./manage.sh<span class="w"> </span>restart
+<h2 id="mangement">Mangement<a class="headerlink" href="#mangement" title="Permanent link">&para;</a></h2>
+<p>The InfraX Node software comes with a management script that can be used to update the software and restart the node. To update the software, run the following command:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>./manage.sh<span class="w"> </span>update
 </span></code></pre></div>
 <p>This will pull the latest version of the software from the repository and restart the node.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>devop@Infrax-Test-Node-1:~/infrax_node$<span class="w"> </span>sudo<span class="w"> </span>./manage.sh<span class="w"> </span>update
@@ -517,6 +534,11 @@
 </span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
 </span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>May<span class="w"> </span><span class="m">16</span><span class="w"> </span><span class="m">07</span>:45:08<span class="w"> </span>Infrax-Test-Node-1<span class="w"> </span>systemd<span class="o">[</span><span class="m">1</span><span class="o">]</span>:<span class="w"> </span>Started<span class="w"> </span>infrax.service<span class="w"> </span>-<span class="w"> </span>InfraX<span class="w"> </span>Node<span class="w"> </span>service.
 </span></code></pre></div>
+<p>Additional commands can be found by running the following command:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo<span class="w"> </span>./manage.sh<span class="w"> </span><span class="nb">help</span>
+</span></code></pre></div>
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>Nodes are the backbone of the InfraX network and are essential for the execution of Jobs and Apps. By installing the InfraX Node software on your computer, you can contribute to the network and earn rewards for your work.</p>
 
 
 
