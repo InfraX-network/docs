@@ -503,6 +503,10 @@
 <h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
 <p>To get started with contributing to the InfraX network as a node supplier, you will need to install and run the InfraX Node software on your computer. You can download the latest version of the software from the public <a href="https://github.com/wegfawefgawefg/infrax-gpu-router-backend">github repository</a>.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The InfraX Node software is designed to run on Linux based operating systems. If you are using a different operating system, you may need to set up a virtual machine or container to run the software.</p>
+</div>
 <p>To install the InfraX Node software, follow these steps:</p>
 <ol>
 <li>Clone the repository to your local machine.</li>
@@ -510,6 +514,10 @@
 <li>Run the <code>install.sh</code> script to install the necessary dependencies and start the InfraX Node service.</li>
 <li>Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.</li>
 </ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Because the InfraX Node software is designed to accept external requests, it is important to ensure that your firewall settings allow incoming connections on the specified port (default <code>external_port=8420</code>). If you are running the software on a cloud server, you may need to configure the security group settings to allow incoming connections on the specified port.</p>
+</div>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <p>Once your node is connected to the InfraX network, requests to install Apps and run Jobs will be sent to your node. You can view the status of your node and the Jobs that are currently running by visiting the InfraX dashboard.</p>
 <h2 id="mangement">Mangement<a class="headerlink" href="#mangement" title="Permanent link">&para;</a></h2>
