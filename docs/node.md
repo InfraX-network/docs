@@ -20,12 +20,28 @@ To get started with contributing to the InfraX network as a node supplier, you w
 To install the InfraX Node software, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Edit the `config.toml` file to match your information.
+2. Edit the `config.toml` file to match your information. See the [Configuration](#configuration) section for more details.
 3. Run the `install.sh` script to install the necessary dependencies and start the InfraX Node service.
 4. Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.
 
 !!! warning
     Because the InfraX Node software is designed to accept external requests, it is important to ensure that your firewall settings allow incoming connections on the specified port (default `external_port=8420`). If you are running the software on a cloud server, you may need to configure the security group settings to allow incoming connections on the specified port.
+
+## Configuration
+
+The `config.toml` file contains the configuration settings for the InfraX Node software. You should edit this file to match your information before running the `install.sh` script. The following settings are available:
+
+- `external_port`: The port that the InfraX server will use to communicate with the node. This port should be open to incoming connections.
+- `local_ip`: The local IP address of the node web server.
+- `internal_port`: The port that the node will use for it's running web server. This is the port that the `external_port` should forward to.
+- `local_only`: If set to `true`, the node will only accept connections from the local machine. This is useful for testing the node locally.
+- `app_dir`: The directory where Apps will be installed on the node.
+- `eth_address`: The Ethereum address that the node will use to receive rewards.
+- `cpu`: The name of the CPU that the node is running on.
+- `gpu`: The name of the GPU that the node is running on.
+- `ram`: The amount of RAM that the node has.
+- `vram`: The amount of VRAM that the node has.
+- `float_types`: The floating point types that the node supports. This is used to match Jobs with compatible nodes.
 
 ## Usage
 

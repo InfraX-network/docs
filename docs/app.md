@@ -30,10 +30,11 @@ Example `main.py` file:
 
 import os
 
-# /
-# ├── input
-# │   ├── file1.txt - contains 'Hello'
-# │   └── file2.txt - contains 'InfraX!'
+# .
+# └── /
+#     └── input/
+#         ├── file1.txt - contains 'Hello'
+#         └── file2.txt - contains 'InfraX!'
 
 input_files = os.listdir('input') # (1)
 
