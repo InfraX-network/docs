@@ -336,6 +336,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       Usage
@@ -453,6 +462,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       Usage
@@ -510,7 +528,7 @@
 <p>To install the InfraX Node software, follow these steps:</p>
 <ol>
 <li>Clone the repository to your local machine.</li>
-<li>Edit the <code>config.toml</code> file to match your information.</li>
+<li>Edit the <code>config.toml</code> file to match your information. See the <a href="#configuration">Configuration</a> section for more details.</li>
 <li>Run the <code>install.sh</code> script to install the necessary dependencies and start the InfraX Node service.</li>
 <li>Your node is now connected to the InfraX network and ready to install Apps and receive Jobs.</li>
 </ol>
@@ -518,6 +536,21 @@
 <p class="admonition-title">Warning</p>
 <p>Because the InfraX Node software is designed to accept external requests, it is important to ensure that your firewall settings allow incoming connections on the specified port (default <code>external_port=8420</code>). If you are running the software on a cloud server, you may need to configure the security group settings to allow incoming connections on the specified port.</p>
 </div>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
+<p>The <code>config.toml</code> file contains the configuration settings for the InfraX Node software. You should edit this file to match your information before running the <code>install.sh</code> script. The following settings are available:</p>
+<ul>
+<li><code>external_port</code>: The port that the InfraX server will use to communicate with the node. This port should be open to incoming connections.</li>
+<li><code>local_ip</code>: The local IP address of the node web server.</li>
+<li><code>internal_port</code>: The port that the node will use for it's running web server. This is the port that the <code>external_port</code> should forward to.</li>
+<li><code>local_only</code>: If set to <code>true</code>, the node will only accept connections from the local machine. This is useful for testing the node locally.</li>
+<li><code>app_dir</code>: The directory where Apps will be installed on the node.</li>
+<li><code>eth_address</code>: The Ethereum address that the node will use to receive rewards.</li>
+<li><code>cpu</code>: The name of the CPU that the node is running on.</li>
+<li><code>gpu</code>: The name of the GPU that the node is running on.</li>
+<li><code>ram</code>: The amount of RAM that the node has.</li>
+<li><code>vram</code>: The amount of VRAM that the node has.</li>
+<li><code>float_types</code>: The floating point types that the node supports. This is used to match Jobs with compatible nodes.</li>
+</ul>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <p>Once your node is connected to the InfraX network, requests to install Apps and run Jobs will be sent to your node. You can view the status of your node and the Jobs that are currently running by visiting the InfraX dashboard.</p>
 <h2 id="mangement">Mangement<a class="headerlink" href="#mangement" title="Permanent link">&para;</a></h2>
