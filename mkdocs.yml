@@ -2,13 +2,13 @@ site_name: InfraX
 site_url: https://infrax.network
 site_description: Distributing power through the facilitation of GPU and AI Resources
 site_author: InfraX Network
-repo_url: https://github.com/InfraX-network/infrax_docs
-repo_name: infrax-network/infrax_docs
+repo_url: https://github.com/InfraX-network/docs
+repo_name: infrax-network/docs
 copyright: Copyright &copy; 2024 - InfraX
 extra:
   social:
     - icon: material/github
-      link: https://github.com/InfraX-network/infrax_docs
+      link: https://github.com/InfraX-network/docs
     - icon: material/twitter
       link: https://twitter.com/InfraX_
     - icon: simple/telegram
