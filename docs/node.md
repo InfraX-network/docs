@@ -10,7 +10,7 @@ A Node is the working unit of the InfraX network. It is a computer that is conne
 
 ## Getting Started
 
-To get started with contributing to the InfraX network as a node supplier, you will need to install and run the InfraX Node software on your computer. You can download the latest version of the software from the public [github repository](https://github.com/wegfawefgawefg/infrax-gpu-router-backend).
+To get started with contributing to the InfraX network as a node supplier, you will need to install and run the InfraX Node software on your computer. You can download the latest version of the software from the public [github repository](https://github.com/InfraX-network/node).
 
 ## Installation
 
